@@ -24,14 +24,52 @@ body .cointainer .head {
   background: #46a1a7;
   position: relative;
 }
+body .cointainer .head img {
+  margin-top: 46px;
+  margin-left: 68px;
+}
+body .cointainer .head .location {
+  display: flex;
+  display: inline-block;
+  position: absolute;
+}
+body .cointainer .head .location input {
+  margin-top: 33px;
+  margin-left: 59px;
+  height: 55px;
+  width: 789px;
+  border-radius: 10px;
+}
 body .cointainer .head .menu {
   position: absolute;
   top: 100%;
   left: 50%;
   width: 80%;
   height: 80px;
-  background-color: burlywood;
+  background-color: #46a1a7;
   transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  box-shadow: 0px 4px 10px rgba(55, 88, 186, 0.2);
+  border-radius: 5px;
+}
+body .cointainer .head .menu p {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  color: white;
+}
+body .cointainer .head .menu p:last-child {
+  background: white;
+  padding-left: 41px;
+  padding-right: 38px;
+  color: black;
+}
+body .cointainer .head .menu p:nth-child(1) {
+  margin-left: 49px;
 }
 body .cointainer .menuItem {
   border: 2px solid;
