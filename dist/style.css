@@ -21,26 +21,50 @@ body .cointainer .topnav {
 }
 body .cointainer .head {
   height: 154px;
+  display: flex;
   background: #46a1a7;
   position: relative;
 }
 body .cointainer .head img {
   margin-top: 46px;
   margin-left: 68px;
+  height: 54px;
+  width: 241px;
 }
-body .cointainer .head .location {
+body .cointainer .head .bar {
   display: flex;
-  display: inline-block;
-  position: absolute;
-}
-body .cointainer .head .location input {
-  margin-top: 33px;
   margin-left: 59px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+}
+body .cointainer .head .bar label {
+  position: relative;
+}
+body .cointainer .head .bar label input {
   height: 55px;
-  width: 789px;
+  width: 786px;
+  border: none;
   border-radius: 10px;
 }
-body .cointainer .head .menu {
+body .cointainer .head .bar label input::placeholder {
+  font-size: 18px;
+  padding-left: 10px;
+}
+body .cointainer .head .bar label button {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: 1%;
+  background: #ff9801;
+  padding: 12px 27px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  box-shadow: 0px 5px 10px 3px rgba(255, 152, 1, 0.3);
+  border-radius: 5px;
+}
+body .cointainer .menu {
   position: absolute;
   top: 100%;
   left: 50%;
@@ -54,7 +78,7 @@ body .cointainer .head .menu {
   box-shadow: 0px 4px 10px rgba(55, 88, 186, 0.2);
   border-radius: 5px;
 }
-body .cointainer .head .menu p {
+body .cointainer .menu p {
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -62,16 +86,16 @@ body .cointainer .head .menu p {
   font-weight: 700;
   color: white;
 }
-body .cointainer .head .menu p:last-child {
+body .cointainer .menu p:last-child {
   background: white;
   padding-left: 41px;
   padding-right: 38px;
   color: black;
 }
-body .cointainer .head .menu p:nth-child(1) {
+body .cointainer .menu p:nth-child(1) {
   margin-left: 49px;
 }
-body .cointainer .menuItem {
+body .menuItem {
   border: 2px solid;
   position: absolute;
   height: 79px;
@@ -81,14 +105,14 @@ body .cointainer .menuItem {
   background: #48acb2;
   border-radius: 8px;
 }
-body .cointainer .image {
+body .image {
   position: relative;
 }
-body .cointainer .image img {
+body .image img {
   width: 100%;
   height: auto;
 }
-body .cointainer .image .healthyBuddha {
+body .image .healthyBuddha {
   position: absolute;
   display: block;
   top: 100%;
@@ -99,7 +123,7 @@ body .cointainer .image .healthyBuddha {
   background: white;
   transform: translate(-50%, -50%);
 }
-body .cointainer .announcements {
+body .announcements {
   height: 196px;
   background: #46a1a7;
   margin-top: 184px;
