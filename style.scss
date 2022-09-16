@@ -5,6 +5,7 @@
   text-decoration: none;
   appearance: none;
   border: 0;
+
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   list-style: none;
@@ -15,20 +16,23 @@ body {
   user-select: none;
   .cointainer {
     .topnav {
-      p {
-        display: inline-block;
-        position: relative;
-        background: #235963;
-        width: 100%;
-        height: 46px;
-      }
+      display: block;
+      height: 46px;
+      background: #235963;
     }
     .head {
       height: 154px;
       background: #46a1a7;
-      position: absolute;
-      width: 100%;
-      bottom: 80%;
+      position: relative;
+      .menu {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 80%;
+        height: 80px;
+        background-color: burlywood;
+        transform: translate(-50%, -50%);
+      }
     }
     .menuItem {
       border: 2px solid;
@@ -38,21 +42,24 @@ body {
       left: 366px;
       top: 160px;
       background: #48acb2;
+      border-radius: 8px;
     }
     .image {
       position: relative;
-    }
-    .healthyBuddha {
-      p {
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .healthyBuddha {
         position: absolute;
         display: block;
-        top: 610px;
+        top: 100%;
+        left: 50%;
         border: 2px solid;
         height: 281px;
-        width: 1196px;
-        left: 366px;
+        width: 80%;
         background: white;
-        border-radius: 25px;
+        transform: translate(-50%, -50%);
       }
     }
     .announcements {

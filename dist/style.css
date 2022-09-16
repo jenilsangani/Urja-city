@@ -14,19 +14,24 @@ body {
   height: 100vh;
   user-select: none;
 }
-body .cointainer .topnav p {
-  display: inline-block;
-  position: relative;
-  background: #235963;
-  width: 100%;
+body .cointainer .topnav {
+  display: block;
   height: 46px;
+  background: #235963;
 }
 body .cointainer .head {
   height: 154px;
   background: #46a1a7;
+  position: relative;
+}
+body .cointainer .head .menu {
   position: absolute;
-  width: 100%;
-  bottom: 80%;
+  top: 100%;
+  left: 50%;
+  width: 80%;
+  height: 80px;
+  background-color: burlywood;
+  transform: translate(-50%, -50%);
 }
 body .cointainer .menuItem {
   border: 2px solid;
@@ -36,20 +41,25 @@ body .cointainer .menuItem {
   left: 366px;
   top: 160px;
   background: #48acb2;
+  border-radius: 8px;
 }
 body .cointainer .image {
   position: relative;
 }
-body .cointainer .healthyBuddha p {
+body .cointainer .image img {
+  width: 100%;
+  height: auto;
+}
+body .cointainer .image .healthyBuddha {
   position: absolute;
   display: block;
-  top: 610px;
+  top: 100%;
+  left: 50%;
   border: 2px solid;
   height: 281px;
-  width: 1196px;
-  left: 366px;
+  width: 80%;
   background: white;
-  border-radius: 25px;
+  transform: translate(-50%, -50%);
 }
 body .cointainer .announcements p {
   height: 196px;
