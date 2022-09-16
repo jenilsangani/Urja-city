@@ -61,7 +61,7 @@ body .cointainer .image .healthyBuddha {
   background: white;
   transform: translate(-50%, -50%);
 }
-body .cointainer .announcements p {
+body .cointainer .announcements {
   height: 196px;
   background: #46a1a7;
   margin-top: 184px;
