@@ -160,18 +160,8 @@ body {
       position: relative;
       img {
         width: 100%;
-        height: auto;
-      }
-      .healthyBuddha {
-        position: absolute;
-        display: block;
-        top: 100%;
-        left: 50%;
-        border: 2px solid;
-        height: 281px;
-        width: 80%;
-        background: white;
-        transform: translate(-50%, -50%);
+      //height: auto;         // for image height 
+        min-height: 705px;    //  soluction of auto height>
       }
       .imgdata {
         position: absolute;
@@ -212,34 +202,46 @@ body {
             border-radius: 5px;
           }
         }
-        .share{
-          margin-top:17px ;
-          gap:5px ;
-          a{
+        .share {
+          margin-top: 17px;
+          gap: 5px;
+          a {
             color: #ffffff;
           }
-          .item1{
+          .item1 {
             border: 2px solid white;
-            padding:12px 14px ;
+            padding: 12px 14px;
             border-radius: 100%;
           }
-          .item2{
-            padding:12px 14px ;
+          .item2 {
+            padding: 12px 14px;
             border-radius: 100%;
             border: 2px solid white;
-            background:#ff9801 ;
+            background: #ff9801;
           }
-          .item3{
-            padding:12px 14px ;
+          .item3 {
+            padding: 12px 14px;
             border-radius: 100%;
             border: 2px solid white;
           }
-          .item4{
-            padding:12px 14px ;
+          .item4 {
+            padding: 12px 14px;
             border-radius: 100%;
             border: 2px solid white;
           }
         }
+      }
+      .healthyBuddha {
+        position: absolute;
+        display: block;
+        top: 100%;
+        left: 50%;
+        border: 2px solid;
+        height: 281px;
+        width: 80%;
+        background: white;
+        transform: translate(-50%, -50%);
+        border-radius: px;
       }
     }
     .announcements {

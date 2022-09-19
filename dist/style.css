@@ -160,18 +160,7 @@ body .cointainer .image {
 }
 body .cointainer .image img {
   width: 100%;
-  height: auto;
-}
-body .cointainer .image .healthyBuddha {
-  position: absolute;
-  display: block;
-  top: 100%;
-  left: 50%;
-  border: 2px solid;
-  height: 281px;
-  width: 80%;
-  background: white;
-  transform: translate(-50%, -50%);
+  min-height: 705px;
 }
 body .cointainer .image .imgdata {
   position: absolute;
@@ -240,6 +229,18 @@ body .cointainer .image .imgdata .share .item4 {
   padding: 12px 14px;
   border-radius: 100%;
   border: 2px solid white;
+}
+body .cointainer .image .healthyBuddha {
+  position: absolute;
+  display: block;
+  top: 100%;
+  left: 50%;
+  border: 2px solid;
+  height: 281px;
+  width: 80%;
+  background: white;
+  transform: translate(-50%, -50%);
+  border-radius: px;
 }
 body .cointainer .announcements {
   height: 196px;
