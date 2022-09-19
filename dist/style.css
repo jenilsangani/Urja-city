@@ -173,6 +173,22 @@ body .cointainer .image .healthyBuddha {
   background: white;
   transform: translate(-50%, -50%);
 }
+body .cointainer .image .imgdata {
+  margin-left: 135px;
+}
+body .cointainer .image .imgdata p:nth-child(1) {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-top: 210px;
+}
+body .cointainer .image .imgdata p:nth-child(2) {
+  font-size: 18px;
+  opacity: 0.8;
+}
+body .cointainer .image .imgdata p:nth-child(3) {
+  margin-top: 50px;
+}
 body .cointainer .announcements {
   height: 196px;
   background: #46a1a7;

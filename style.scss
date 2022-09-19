@@ -173,6 +173,22 @@ body {
         background: white;
         transform: translate(-50%, -50%);
       }
+      .imgdata {
+        margin-left: 135px;
+        p:nth-child(1) {
+          font-size: 50px;
+          font-weight: 700;
+          line-height: 58px;
+          margin-top: 210px;
+        }
+        p:nth-child(2) {
+          font-size: 18px;
+          opacity: 0.8;
+        }
+        p:nth-child(3) {
+          margin-top: 50px;
+        }
+      }
     }
     .announcements {
       height: 196px;
