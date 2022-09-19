@@ -21,6 +21,7 @@ body .cointainer .topnav {
   background: #235963;
 }
 body .cointainer .head {
+  width: 100%;
   height: 154px;
   display: flex;
   background: #46a1a7;
@@ -34,6 +35,7 @@ body .cointainer .head img {
 }
 body .cointainer .head .bar {
   display: flex;
+  flex: 1;
   margin-left: 59px;
   justify-content: center;
   align-items: center;
@@ -41,12 +43,13 @@ body .cointainer .head .bar {
 }
 body .cointainer .head .bar label {
   position: relative;
-  flex-grow: 3;
+  display: flex;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 body .cointainer .head .bar label input {
   height: 55px;
-  flex-grow: 2;
-  width: 786px;
+  width: 100%;
   border: none;
   border-radius: 10px;
 }
@@ -68,33 +71,41 @@ body .cointainer .head .bar label button {
   box-shadow: 0px 5px 10px 3px rgba(255, 152, 1, 0.3);
   border-radius: 5px;
 }
-body .cointainer .head .bar .about {
+body .cointainer .head .about {
+  display: flex;
+  margin-bottom: 34px;
+  justify-content: center;
+  align-items: center;
+}
+body .cointainer .head .about .contect {
   display: flex;
 }
-body .cointainer .head .bar .about .contect span {
+body .cointainer .head .about .contect span {
   border: 3px solid white;
   color: white;
   border-radius: 50%;
   padding: 12px 10px;
   margin-left: 57px;
 }
-body .cointainer .head .bar .about .contect p {
+body .cointainer .head .about .contect p {
+  display: inline-block;
   font-size: 13px;
   color: white;
   display: flex;
   text-transform: uppercase;
   font-family: "Roboto Condensed";
-  display: inline-block;
   align-items: center;
+  justify-content: center;
   text-align: left;
+  margin-left: 10px;
 }
-body .cointainer .head .bar .login {
+body .cointainer .head .login {
   width: auto;
+  margin: 39px 76px 60px;
 }
-body .cointainer .head .bar .login button {
+body .cointainer .head .login button {
   height: 55px;
   width: 184px;
-  margin-left: 57px;
   background: #ff9801;
   color: #ffffff;
   font-size: 18px;
@@ -103,7 +114,7 @@ body .cointainer .head .bar .login button {
   border-radius: 5px;
   box-shadow: 0px 5px 10px 3px rgba(255, 152, 1, 0.3);
 }
-body .cointainer .menu {
+body .cointainer .head .menu {
   position: absolute;
   top: 100%;
   left: 50%;
@@ -117,7 +128,7 @@ body .cointainer .menu {
   box-shadow: 0px 4px 10px rgba(55, 88, 186, 0.2);
   border-radius: 5px;
 }
-body .cointainer .menu p {
+body .cointainer .head .menu p {
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -125,16 +136,16 @@ body .cointainer .menu p {
   font-weight: 700;
   color: white;
 }
-body .cointainer .menu p:last-child {
+body .cointainer .head .menu p:last-child {
   background: white;
   padding-left: 41px;
   padding-right: 38px;
   color: black;
 }
-body .cointainer .menu p:nth-child(1) {
+body .cointainer .head .menu p:nth-child(1) {
   margin-left: 49px;
 }
-body .menuItem {
+body .cointainer .menuItem {
   border: 2px solid;
   position: absolute;
   height: 79px;
@@ -144,14 +155,14 @@ body .menuItem {
   background: #48acb2;
   border-radius: 8px;
 }
-body .image {
+body .cointainer .image {
   position: relative;
 }
-body .image img {
+body .cointainer .image img {
   width: 100%;
   height: auto;
 }
-body .image .healthyBuddha {
+body .cointainer .image .healthyBuddha {
   position: absolute;
   display: block;
   top: 100%;
@@ -162,7 +173,7 @@ body .image .healthyBuddha {
   background: white;
   transform: translate(-50%, -50%);
 }
-body .announcements {
+body .cointainer .announcements {
   height: 196px;
   background: #46a1a7;
   margin-top: 184px;
