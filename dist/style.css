@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
   appearance: none;
   border: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed";
   list-style: none;
 }
 
@@ -50,6 +51,7 @@ body .cointainer .head .bar label input {
 body .cointainer .head .bar label input::placeholder {
   font-size: 18px;
   padding-left: 10px;
+  color: #666d8180;
 }
 body .cointainer .head .bar label button {
   position: absolute;
@@ -63,6 +65,38 @@ body .cointainer .head .bar label button {
   color: #ffffff;
   box-shadow: 0px 5px 10px 3px rgba(255, 152, 1, 0.3);
   border-radius: 5px;
+}
+body .cointainer .head .bar .contect span {
+  border: 3px solid white;
+  color: white;
+  border-radius: 50%;
+  padding: 12px 10px;
+  margin-left: 57px;
+}
+body .cointainer .head .bar .contect p {
+  font-size: 13px;
+  color: white;
+  display: flex;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed";
+  display: inline-block;
+  align-items: center;
+  text-align: left;
+}
+body .cointainer .head .bar .login {
+  width: auto;
+}
+body .cointainer .head .bar .login button {
+  height: 55px;
+  width: 184px;
+  margin-left: 57px;
+  background: #ff9801;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 6px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 3px rgba(255, 152, 1, 0.3);
 }
 body .cointainer .menu {
   position: absolute;
