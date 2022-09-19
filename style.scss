@@ -40,8 +40,10 @@ body {
         margin-bottom: 26px;
         label {
           position: relative;
+          flex-grow: 3;
           input {
             height: 55px;
+            flex-grow: 2;
             width: 786px;
             border: none;
             border-radius: 10px;
@@ -65,23 +67,27 @@ body {
             border-radius: 5px;
           }
         }
-        .contect {
-          span {
-            border: 3px solid white;
-            color: white;
-            border-radius: 50%;
-            padding: 12px 10px;
-            margin-left: 57px;
-          }
-          p {
-            font-size: 13px;
-            color: white;
-            display: flex;
-            text-transform: uppercase;
-            font-family: "Roboto Condensed";
-            display: inline-block;
-            align-items: center;
-            text-align: left;
+        .about {
+          display: flex;
+          // flex-grow: inherit;
+          .contect {
+            span {
+              border: 3px solid white;
+              color: white;
+              border-radius: 50%;
+              padding: 12px 10px;
+              margin-left: 57px;
+            }
+            p {
+              font-size: 13px;
+              color: white;
+              display: flex;
+              text-transform: uppercase;
+              font-family: "Roboto Condensed";
+              display: inline-block;
+              align-items: center;
+              text-align: left;
+            }
           }
         }
         .login {
