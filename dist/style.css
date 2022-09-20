@@ -158,7 +158,6 @@ body .cointainer .menuItem {
 }
 body .cointainer .info {
   position: relative;
-  border: 1px solid;
   height: 705px;
 }
 body .cointainer .info .imgdata {
