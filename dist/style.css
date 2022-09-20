@@ -121,7 +121,7 @@ body .cointainer .head .menu {
   left: 50%;
   width: 80%;
   height: 80px;
-  background-color: #46a1a7;
+  background-color: #48acb2;
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: space-between;
@@ -250,11 +250,11 @@ body .cointainer .info .healthyBuddha {
   top: 100%;
   padding: 20px 64px;
   left: 50%;
-  border: 2px solid;
   width: 1200px;
   background: white;
   transform: translate(-50%, -50%);
   border-radius: 25px;
+  box-shadow: 0px 4px 8.944px rgba(0, 57, 106, 0.1);
 }
 body .cointainer .info .healthyBuddha .top {
   display: flex;
@@ -296,6 +296,7 @@ body .cointainer .info .healthyBuddha .top .title .rating .star i {
 }
 body .cointainer .info .healthyBuddha .top .title .reviews {
   font-size: 18px;
+  padding-top: 10px;
   line-height: 21px;
   color: #666d81;
 }
@@ -337,7 +338,7 @@ body .cointainer .info .healthyBuddha .bottom .ation {
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
-  color: #666D81;
+  color: #666d81;
 }
 body .cointainer .info .healthyBuddha .bottom .ation:last-child span {
   color: #ff9801;
@@ -351,6 +352,55 @@ body .cointainer .info .healthyBuddha .bottom .ation:first-child span {
 }
 body .cointainer .announcements {
   height: 196px;
+  width: 100%;
   background: #46a1a7;
   margin-top: 184px;
+}
+body .cointainer .announcements .text {
+  padding: 35px 78px 0 243px;
+  height: 79px;
+  width: auto;
+}
+body .cointainer .announcements .text p:first-child {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: #ffffff;
+}
+body .cointainer .announcements .text p:last-child {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+body .cointainer .aboutTheNgo {
+  margin-top: 62px;
+  justify-content: space-evenly;
+  display: flex;
+  margin-left: 11px;
+  border-radius: 100px;
+  margin-right: 11px;
+  box-shadow: 0px 4px 8.944px rgba(0, 57, 106, 0.1);
+}
+body .cointainer .aboutTheNgo .option {
+  margin: 35px 0;
+  padding: 33px 60px;
+  border-radius: 50px;
+  background: #e9e9e9;
+}
+body .cointainer .aboutTheNgo .option p {
+  font-size: 18px;
+  font-weight: 700;
+}
+body .cointainer .aboutTheNgo .option:first-child {
+  margin-left: 55px;
+  background: #ff9801;
+  color: #ffffff;
+  box-shadow: 0px 12px 9.798px rgba(255, 152, 1, 0.35);
+}
+body .cointainer .aboutTheNgo .option:last-child {
+  margin-right: 55px;
 }
