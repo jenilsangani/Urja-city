@@ -116,6 +116,7 @@ body .cointainer .head .login button {
 }
 body .cointainer .head .menu {
   position: absolute;
+  z-index: 1;
   top: 100%;
   left: 50%;
   width: 80%;
@@ -155,92 +156,184 @@ body .cointainer .menuItem {
   background: #48acb2;
   border-radius: 8px;
 }
-body .cointainer .image {
+body .cointainer .info {
   position: relative;
+  border: 1px solid;
+  height: 705px;
 }
-body .cointainer .image img {
-  width: 100%;
-  min-height: 705px;
-}
-body .cointainer .image .imgdata {
+body .cointainer .info .imgdata {
   position: absolute;
-  margin-left: 135px;
+  height: 705px;
+  padding-left: 135px;
+  width: 100%;
+  background-image: url("/img/Base.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-body .cointainer .image .imgdata p:nth-child(1) {
+body .cointainer .info .imgdata p:nth-child(1) {
   font-size: 50px;
   font-weight: 700;
   line-height: 58px;
   margin-top: 210px;
+  color: #ffffff;
 }
-body .cointainer .image .imgdata p:nth-child(2) {
+body .cointainer .info .imgdata p:nth-child(2) {
   font-size: 18px;
   opacity: 0.8;
+  color: white;
 }
-body .cointainer .image .imgdata p:nth-child(3) {
+body .cointainer .info .imgdata p:nth-child(3) {
   margin-top: 50px;
+  color: white;
 }
-body .cointainer .image .imgdata table {
+body .cointainer .info .imgdata p:nth-child(4) {
+  color: white;
+}
+body .cointainer .info .imgdata table {
   margin-top: 11px;
 }
-body .cointainer .image .imgdata table th {
+body .cointainer .info .imgdata table th {
   padding: 11.5px 15px;
 }
-body .cointainer .image .imgdata table th:nth-child(1) {
+body .cointainer .info .imgdata table th:nth-child(1) {
   background: rgba(255, 152, 1, 0.2);
   color: #ff9801;
 }
-body .cointainer .image .imgdata table th:nth-child(2) {
+body .cointainer .info .imgdata table th:nth-child(2) {
   color: #46a1a7;
   background: rgba(72, 172, 178, 0.2);
 }
-body .cointainer .image .imgdata table th:nth-child(3) {
-  color: black;
+body .cointainer .info .imgdata table th:nth-child(3) {
+  color: white;
 }
-body .cointainer .image .imgdata table th:nth-child(4) {
+body .cointainer .info .imgdata table th:nth-child(4) {
   color: white;
   background: #48acb2;
   box-shadow: 0px 2px 10px 3px rgba(255, 152, 1, 0.3);
   border-radius: 5px;
 }
-body .cointainer .image .imgdata .share {
+body .cointainer .info .imgdata .share {
   margin-top: 17px;
   gap: 5px;
 }
-body .cointainer .image .imgdata .share a {
+body .cointainer .info .imgdata .share a {
   color: #ffffff;
 }
-body .cointainer .image .imgdata .share .item1 {
+body .cointainer .info .imgdata .share .item1 {
   border: 2px solid white;
   padding: 12px 14px;
   border-radius: 100%;
 }
-body .cointainer .image .imgdata .share .item2 {
+body .cointainer .info .imgdata .share .item2 {
   padding: 12px 14px;
   border-radius: 100%;
   border: 2px solid white;
   background: #ff9801;
 }
-body .cointainer .image .imgdata .share .item3 {
+body .cointainer .info .imgdata .share .item3 {
   padding: 12px 14px;
   border-radius: 100%;
   border: 2px solid white;
 }
-body .cointainer .image .imgdata .share .item4 {
+body .cointainer .info .imgdata .share .item4 {
   padding: 12px 14px;
   border-radius: 100%;
   border: 2px solid white;
 }
-body .cointainer .image .healthyBuddha {
-  position: absolute;
-  display: block;
+body .cointainer .info .healthyBuddha {
+  position: relative;
+  display: inline;
+  flex-direction: column;
+  display: flex;
+  z-index: 2;
+  gap: 24px;
   top: 100%;
+  padding: 20px 64px;
   left: 50%;
   border: 2px solid;
-  height: 281px;
-  width: 80%;
+  width: 1200px;
   background: white;
   transform: translate(-50%, -50%);
-  border-radius: px;
+  border-radius: 25px;
+}
+body .cointainer .info .healthyBuddha .top {
+  display: flex;
+  gap: 110px;
+}
+body .cointainer .info .healthyBuddha .top .title {
+  display: flex;
+  flex-direction: column;
+}
+body .cointainer .info .healthyBuddha .top .title .top {
+  position: relative;
+}
+body .cointainer .info .healthyBuddha .top .title .top p:nth-child(1) {
+  font-size: 50px;
+  font-weight: 700;
+}
+body .cointainer .info .healthyBuddha .top .title .top span {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+body .cointainer .info .healthyBuddha .top .title p {
+  font-size: 50px;
+  font-weight: 700;
+}
+body .cointainer .info .healthyBuddha .top .title .rating {
+  display: flex;
+  align-items: center;
+}
+body .cointainer .info .healthyBuddha .top .title .rating p {
+  font-size: 30px;
+}
+body .cointainer .info .healthyBuddha .top .title .rating .star {
+  padding-left: 15px;
+  color: #ff9801;
+}
+body .cointainer .info .healthyBuddha .top .title .rating .star i {
+  font-size: 25px;
+}
+body .cointainer .info .healthyBuddha .top .title .reviews {
+  font-size: 18px;
+  line-height: 21px;
+  color: #666d81;
+}
+body .cointainer .info .healthyBuddha .top .calender {
+  display: flex;
+  flex-grow: 1;
+}
+body .cointainer .info .healthyBuddha .top .calender .location {
+  display: flex;
+  flex-grow: 1;
+}
+body .cointainer .info .healthyBuddha .top .calender .location span {
+  font-size: 50px;
+  color: #ff9801;
+}
+body .cointainer .info .healthyBuddha .top .calender .location p:nth-child(1) {
+  margin-top: 8px;
+  justify-items: center;
+  align-items: center;
+  font-size: 12px;
+}
+body .cointainer .info .healthyBuddha .top .calender .location p:nth-child(2) {
+  font-weight: 700;
+  font-size: 18px;
+}
+body .cointainer .info .healthyBuddha .bottom {
+  display: flex;
+  gap: 10px;
+}
+body .cointainer .info .healthyBuddha .bottom .ation {
+  border-radius: 5px;
+  display: flex;
+  gap: 8px;
+  background: #f0f0f2;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
 }
 body .cointainer .announcements {
   height: 196px;
