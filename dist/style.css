@@ -334,6 +334,20 @@ body .cointainer .info .healthyBuddha .bottom .ation {
   justify-content: center;
   align-items: center;
   height: 80px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #666D81;
+}
+body .cointainer .info .healthyBuddha .bottom .ation:last-child span {
+  color: #ff9801;
+}
+body .cointainer .info .healthyBuddha .bottom .ation:first-child {
+  background-color: #ff9801;
+  color: #ffffff;
+}
+body .cointainer .info .healthyBuddha .bottom .ation:first-child span {
+  color: white;
 }
 body .cointainer .announcements {
   height: 196px;

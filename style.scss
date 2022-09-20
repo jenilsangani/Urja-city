@@ -333,6 +333,22 @@ body {
             justify-content: center;
             align-items: center;
             height: 80px;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            color: #666D81;
+          }
+          .ation:last-child {
+            span {
+              color: #ff9801;
+            }
+          }
+          .ation:first-child {
+            background-color: #ff9801;
+            color: #ffffff;
+            span {
+              color: white;
+            }
           }
         }
       }
