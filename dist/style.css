@@ -426,6 +426,9 @@ body .cointainer .aboutTheNgo .aboutNGO .description p {
   line-height: 30px;
   color: #666d81;
   max-height: 772px;
+}
+body .cointainer .aboutTheNgo .aboutNGO .description p:nth-child(2) {
+  padding-top: 44px;
   padding-bottom: 74px;
 }
 body .cointainer .aboutTheNgo .option {

@@ -383,7 +383,6 @@ body {
     .aboutTheNgo {
       .topList {
         margin-top: 62px;
-        // border: 1px solid;
         justify-content: space-evenly;
         display: flex;
         margin-left: 11px;
@@ -392,7 +391,6 @@ body {
         box-shadow: 0px 4px 8.944px rgba(0, 57, 106, 0.1);
       }
       .aboutNGO {
-        // height:760px;
         margin: 83px auto auto 154px;
         .titleImage {
           display: flex;
@@ -426,16 +424,15 @@ body {
           margin-right: 66px;
           p {
             display: flex;
-            // flex-grow: 1;
-            // overflow-y: auto;
             font-size: 18px;
             font-weight: 400;
             line-height: 30px;
             color: #666d81;
             max-height: 772px;
+          }
+          p:nth-child(2){
+            padding-top:44px ;
             padding-bottom: 74px;
-            // height: auto;
-            // overflow-y: auto;
           }
         }
       }
@@ -473,11 +470,9 @@ body {
           color: #666d81;
         }
         p:nth-child(2) {
-          // text-transform: uppercase;
           font-size: 50px;
           line-height: 51px;
           font-weight: 700;
-          // color: #666D81;
         }
       }
       .flxItem {
@@ -505,19 +500,3 @@ body {
   }
 }
 
-// .about {
-//   display: flex;
-//   flex-direction: column;
-//   max-height: 772px;
-//   height: auto;
-//   .header {
-//   }
-//   .content {
-//     flex-grow: 1;
-//     background-color: red;
-//     overflow-y: auto;
-//     p {
-//       font-size: 3em;
-//     }
-//   }
-// }
