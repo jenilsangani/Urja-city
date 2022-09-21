@@ -159,7 +159,7 @@ body {
     }
     .info {
       position: relative;
-      // border: 1px solid;
+      border: 1px solid;
       height: 705px;
       .imgdata {
         position: absolute;
@@ -381,14 +381,63 @@ body {
       }
     }
     .aboutTheNgo {
-      margin-top: 62px;
-      // border: 1px solid;
-      justify-content: space-evenly;
-      display: flex;
-      margin-left: 11px;
-      border-radius: 100px;
-      margin-right: 11px;
-      box-shadow: 0px 4px 8.944px rgba(0, 57, 106, 0.1);
+      .topList {
+        margin-top: 62px;
+        // border: 1px solid;
+        justify-content: space-evenly;
+        display: flex;
+        margin-left: 11px;
+        border-radius: 100px;
+        margin-right: 11px;
+        box-shadow: 0px 4px 8.944px rgba(0, 57, 106, 0.1);
+      }
+      .aboutNGO {
+        margin: 83px auto auto 154px;
+        .titleImage {
+          display: flex;
+          .about {
+            margin-left: 53px;
+            p:nth-child(1) {
+              font-size: 16px;
+              font-weight: 400;
+              color: #666d81;
+            }
+            p:nth-child(2) {
+              font-size: 50px;
+              font-weight: 700;
+              color: #131d3b;
+            }
+            p:nth-child(3) {
+              color: #46a1a7;
+              font-size: 18px;
+              font-weight: 700;
+              background: rgba(132, 204, 192, 0.2);
+              padding: 15px 48px;
+              display: inline-block;
+              margin-top: 27px;
+            }
+          }
+        }
+        .description {
+          margin-top:31px ;
+          width:auto ;
+          height: 155px;
+          margin-right:66px ;
+          p:nth-child(1) {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #666d81;
+          }
+          p:nth-child(2) {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #666d81;
+            padding-top: 44px;
+          }
+        }
+      }
       .option {
         margin: 35px 0;
         padding: 33px 60px;
