@@ -487,7 +487,7 @@ body {
       .flex_box {
         height: 315px;
         width: 378px;
-        background: linear-gradient(red, blue);
+        // background: linear-gradient(red, blue);
         background-image: url("/img/Base.jpg");
         color: white;
         font-size: 25px;
@@ -495,6 +495,9 @@ body {
         line-height: 315px;
         border-radius: 25px;
         margin-top: 35px;
+        background-size:cover;
+        background-repeat: no-repeat;
+        // background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
       }
     }
   }
