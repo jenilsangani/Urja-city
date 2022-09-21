@@ -392,6 +392,7 @@ body {
         box-shadow: 0px 4px 8.944px rgba(0, 57, 106, 0.1);
       }
       .aboutNGO {
+        // height:760px;
         margin: 83px auto auto 154px;
         .titleImage {
           display: flex;
@@ -419,22 +420,22 @@ body {
           }
         }
         .description {
-          margin-top:31px ;
-          width:auto ;
-          height: 155px;
-          margin-right:66px ;
-          p:nth-child(1) {
+          margin-top: 31px;
+          width: auto;
+          flex-direction: column;
+          margin-right: 66px;
+          p {
+            display: flex;
+            // flex-grow: 1;
+            // overflow-y: auto;
             font-size: 18px;
             font-weight: 400;
             line-height: 30px;
             color: #666d81;
-          }
-          p:nth-child(2) {
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 30px;
-            color: #666d81;
-            padding-top: 44px;
+            max-height: 772px;
+            padding-bottom: 74px;
+            // height: auto;
+            // overflow-y: auto;
           }
         }
       }
@@ -458,5 +459,65 @@ body {
         margin-right: 55px;
       }
     }
+    .flex_container {
+      background: #f2f3f5;
+      z-index: 1;
+      .productsTitle {
+        padding-left: 157px;
+        padding-top: 39px;
+        p:nth-child(1) {
+          text-transform: uppercase;
+          font-size: 16px;
+          line-height: 51px;
+          font-weight: 400;
+          color: #666d81;
+        }
+        p:nth-child(2) {
+          // text-transform: uppercase;
+          font-size: 50px;
+          line-height: 51px;
+          font-weight: 700;
+          // color: #666D81;
+        }
+      }
+      .flxItem {
+        display: flex;
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-left: 157px;
+        margin-right: 155px;
+      }
+      .flex_box {
+        height: 315px;
+        width: 378px;
+        background: linear-gradient(red, blue);
+        background-image: url("/img/Base.jpg");
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        line-height: 315px;
+        border-radius: 25px;
+        margin-top: 35px;
+      }
+    }
   }
 }
+
+// .about {
+//   display: flex;
+//   flex-direction: column;
+//   max-height: 772px;
+//   height: auto;
+//   .header {
+//   }
+//   .content {
+//     flex-grow: 1;
+//     background-color: red;
+//     overflow-y: auto;
+//     p {
+//       font-size: 3em;
+//     }
+//   }
+// }
