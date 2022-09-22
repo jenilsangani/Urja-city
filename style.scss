@@ -676,7 +676,7 @@ body {
               height: 55px;
               margin-top: auto;
               background: #ff9801;
-              border-radius: 10px;
+              border-radius: 7px;
               font-weight: 700;
               font-size: 18px;
               line-height: 21px;
@@ -684,6 +684,11 @@ body {
               color: #ffffff;
               // flex-grow: 1;
               // margin: 26px 17px 17px 17px;
+            }
+            .unselectBtn{
+              background: white;
+              color: #ff9801;
+              border: 2px solid #ff9801;
             }
           }
         }

@@ -662,10 +662,15 @@ body .cointainer .ourBestCourses .coursesList .courses .appoinmentBtn button {
   height: 55px;
   margin-top: auto;
   background: #ff9801;
-  border-radius: 10px;
+  border-radius: 7px;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   justify-items: flex-end;
   color: #ffffff;
+}
+body .cointainer .ourBestCourses .coursesList .courses .appoinmentBtn .unselectBtn {
+  background: white;
+  color: #ff9801;
+  border: 2px solid #ff9801;
 }
