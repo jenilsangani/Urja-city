@@ -37,7 +37,7 @@ body {
         display: flex;
         flex: 1;
         margin-left: 59px;
-        justify-content: center;
+        justify-content: center;        
         align-items: center;
         margin-bottom: 26px;
         label {
@@ -355,7 +355,6 @@ body {
         }
       }
     }
-
     .announcements {
       height: 196px;
       width: 100%;
@@ -503,7 +502,6 @@ body {
     }
     .services {
       padding:130px 157px;
-      // padding-bottom: 134px;
       .servicesTitle {
         p:nth-child(1) {
           font-size: 16px;
@@ -597,12 +595,12 @@ body {
     }
     .ourBestCourses {
       padding: 157px;
-      padding-top: 97px;
       background: #f2f3f5;
+      padding-top: 97px;
+      padding-bottom: 97px;
       display: flex;
       flex-direction: column;
       .coursesTitle {
-        // 157px;
         p:nth-child(1) {
           font-size: 16px;
           color: #666d81;
@@ -617,8 +615,6 @@ body {
       }
       .coursesList {
         display: flex;
-        // max-width: 395px;
-        // width: auto;
         gap: 30px;
         margin-top:67px ;
         .courses {
@@ -672,7 +668,6 @@ body {
             flex-grow: 2;
             button {
               width: 100%;
-              // display: flex;
               height: 55px;
               margin-top: auto;
               background: #ff9801;
@@ -682,8 +677,6 @@ body {
               line-height: 21px;
               justify-items: flex-end;
               color: #ffffff;
-              // flex-grow: 1;
-              // margin: 26px 17px 17px 17px;
             }
             .unselectBtn{
               background: white;

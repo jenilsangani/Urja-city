@@ -585,8 +585,9 @@ body .cointainer .services .serviceList .service .info button {
 }
 body .cointainer .ourBestCourses {
   padding: 157px;
-  padding-top: 97px;
   background: #f2f3f5;
+  padding-top: 97px;
+  padding-bottom: 97px;
   display: flex;
   flex-direction: column;
 }
