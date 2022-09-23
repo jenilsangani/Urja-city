@@ -471,6 +471,9 @@ body .cointainer .flex_container .productsTitle p:nth-child(2) {
   line-height: 51px;
   font-weight: 700;
 }
+body .cointainer .flex_container .productsTitle p:nth-child(2) span {
+  color: #ff9801;
+}
 body .cointainer .flex_container .flxItem {
   display: flex;
   width: 90%;
@@ -505,6 +508,9 @@ body .cointainer .services .servicesTitle p:nth-child(2) {
   font-size: 50px;
   font-weight: 700;
   line-height: 58px;
+}
+body .cointainer .services .servicesTitle p:nth-child(2) span {
+  color: #ff9801;
 }
 body .cointainer .services .serviceList {
   margin-top: 60px;
@@ -602,6 +608,9 @@ body .cointainer .ourBestCourses .coursesTitle p:nth-child(2) {
   font-weight: 700;
   line-height: 58px;
 }
+body .cointainer .ourBestCourses .coursesTitle p:nth-child(2) span {
+  color: #ff9801;
+}
 body .cointainer .ourBestCourses .coursesList {
   display: flex;
   gap: 30px;
@@ -692,6 +701,9 @@ body .cointainer .latestBlogs .blogsTitle p:nth-child(2) {
   font-size: 50px;
   font-weight: 700;
   line-height: 58px;
+}
+body .cointainer .latestBlogs .blogsTitle p:nth-child(2) span {
+  color: #ff9801;
 }
 body .cointainer .latestBlogs .blogLIst {
   display: flex;
