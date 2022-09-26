@@ -313,13 +313,27 @@ body .cointainer > .info .healthyBuddha .top .calender .location span {
   font-size: 50px;
   color: #ff9801;
 }
-body .cointainer > .info .healthyBuddha .top .calender .location p:nth-child(1) {
+body
+  .cointainer
+  > .info
+  .healthyBuddha
+  .top
+  .calender
+  .location
+  p:nth-child(1) {
   margin-top: 8px;
   justify-items: center;
   align-items: center;
   font-size: 12px;
 }
-body .cointainer > .info .healthyBuddha .top .calender .location p:nth-child(2) {
+body
+  .cointainer
+  > .info
+  .healthyBuddha
+  .top
+  .calender
+  .location
+  p:nth-child(2) {
   font-weight: 700;
   font-size: 18px;
 }
@@ -679,7 +693,13 @@ body .cointainer .ourBestCourses .coursesList .courses .appoinmentBtn button {
   justify-items: flex-end;
   color: #ffffff;
 }
-body .cointainer .ourBestCourses .coursesList .courses .appoinmentBtn .unselectBtn {
+body
+  .cointainer
+  .ourBestCourses
+  .coursesList
+  .courses
+  .appoinmentBtn
+  .unselectBtn {
   background: white;
   color: #ff9801;
   border: 2px solid #ff9801;
@@ -859,4 +879,78 @@ body .cointainer footer .bottomAbout .quickLinks p {
   line-height: 35px;
   font-weight: 400;
   color: #b6bbcc;
+}
+
+
+
+
+/* media Queries */
+
+
+
+
+
+@media screen and (max-width: 1250px) {
+  body .cointainer .bar button {
+    display: none;
+  }
+  body .cointainer .announcements .text {
+    padding: 17px 40px 0 100px;
+    height: 10px;
+  }
+  body .cointainer .announcements .text p:first-child {
+    font-size: 20px;
+  }
+  body .cointainer .announcements .text p:last-child {
+    font-size: 12px;
+  }
+  body .cointainer .aboutTheNgo .topList .option {
+    margin: 35px 0;
+    padding: 15px 30px;
+  }
+  body .cointainer footer {
+    padding: 45px 90px;
+  }
+  body .cointainer footer .bottomAbout .about .title {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+  body .cointainer footer .bottomAbout .about {
+    width: 300px;
+  }
+  body .cointainer footer .bottomAbout .about .aboutData {
+    font-size: 12px;
+  }
+  body .cointainer footer .bottomAbout .about input {
+    height: 25px;
+    width: 150px;
+  }
+  body .cointainer footer .bottomAbout .about button {
+    width: 80px;
+    height: 26px;
+    font-size: 12px;
+  }
+  body .cointainer footer .bottomAbout .socialMedia .title {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+  body .cointainer footer .bottomAbout .socialMedia a {
+    padding: 8px;
+    font-size: 15px;
+  }
+  body .cointainer footer .bottomAbout .conteact .title {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+  body .cointainer footer .bottomAbout .conteact p {
+    font-size: 12px;
+    line-height: 35px;
+  }
+  body .cointainer footer .bottomAbout .quickLinks .title {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+  body .cointainer footer .bottomAbout .quickLinks p {
+    font-size: 12px;
+  }
 }

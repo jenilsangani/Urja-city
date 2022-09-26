@@ -474,7 +474,7 @@ body {
           font-size: 50px;
           line-height: 51px;
           font-weight: 700;
-          span{
+          span {
             color: #ff9801;
           }
         }
@@ -514,7 +514,7 @@ body {
           font-size: 50px;
           font-weight: 700;
           line-height: 58px;
-          span{
+          span {
             color: #ff9801;
           }
         }
@@ -617,7 +617,7 @@ body {
           font-size: 50px;
           font-weight: 700;
           line-height: 58px;
-          span{
+          span {
             color: #ff9801;
           }
         }
@@ -714,7 +714,7 @@ body {
           font-size: 50px;
           font-weight: 700;
           line-height: 58px;
-          span{
+          span {
             color: #ff9801;
           }
         }
@@ -783,8 +783,7 @@ body {
         }
       }
     }
-    footer{
-
+    footer {
       background: #235963;
       display: flex;
       flex-direction: column;
@@ -874,6 +873,35 @@ body {
             color: #b6bbcc;
           }
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    .cointainer {
+      .bar {
+        button {
+          display: none;
+        }
+      }
+    }
+    .announcements{
+      .text{
+        color: #ff9801;
+        p{
+          font-size: 5px;
+        }
+      }
+    }
+    .aboutTheNgo {
+      .topList {
+        background: #235963;
+        display: flex;
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
       }
     }
   }
