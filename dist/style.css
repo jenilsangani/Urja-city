@@ -881,14 +881,7 @@ body .cointainer footer .bottomAbout .quickLinks p {
   color: #b6bbcc;
 }
 
-
-
-
 /* media Queries */
-
-
-
-
 
 @media screen and (max-width: 1200px) {
   body .cointainer .bar button {
@@ -953,5 +946,26 @@ body .cointainer footer .bottomAbout .quickLinks p {
   }
   body .cointainer footer .bottomAbout .quickLinks p {
     font-size: 12px;
+  }
+  body .cointainer .latestBlogs .blogLIst .blogs .Title2 {
+    font-size: 15px;
+  }
+  body .cointainer .latestBlogs .blogLIst .blogs .Title3 {
+    font-size: 13px;
+  }
+
+
+  /* grid */
+
+
+  body .cointainer .ourBestCourses .coursesList .courses  .Title2 {
+    font-size: 18px;
+  }
+
+  body .cointainer .ourBestCourses .coursesList .courses  .Title2 {
+    font-size: 18px;
+  }
+  body .cointainer .ourBestCourses .coursesList .courses  .Title3 {
+    font-size: 13px;
   }
 }
