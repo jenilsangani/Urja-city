@@ -890,7 +890,7 @@ body .cointainer footer .bottomAbout .quickLinks p {
 
 
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
   body .cointainer .bar button {
     display: none;
   }
@@ -916,17 +916,18 @@ body .cointainer footer .bottomAbout .quickLinks p {
     padding-bottom: 25px;
   }
   body .cointainer footer .bottomAbout .about {
-    width: 300px;
+    width: 200px;
+    /* margin-left: auto; */
   }
   body .cointainer footer .bottomAbout .about .aboutData {
     font-size: 12px;
   }
   body .cointainer footer .bottomAbout .about input {
     height: 25px;
-    width: 150px;
+    width: 130px;
   }
   body .cointainer footer .bottomAbout .about button {
-    width: 80px;
+    width: 60px;
     height: 26px;
     font-size: 12px;
   }
