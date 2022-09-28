@@ -979,4 +979,10 @@ body .cointainer footer .bottomAbout .quickLinks p {
   body .cointainer .services .serviceList .service .info ul li .leadingIcon1 {
     display: none;
   }
+  body .cointainer .services .serviceList .service .info ul li .point {
+    overflow-y: ellipsis;
+    height: 200px;
+    overflow-y: scroll;
+    text-overflow: ellipsis;
+  }
 }
