@@ -9,6 +9,7 @@
   box-sizing: border-box;
   font-family: "Roboto Condensed";
   list-style: none;
+  transition: all 374ms ease;
 }
 
 body {
@@ -954,18 +955,22 @@ body .cointainer footer .bottomAbout .quickLinks p {
     font-size: 13px;
   }
 
-
   /* grid */
 
-
-  body .cointainer .ourBestCourses .coursesList .courses  .Title2 {
+  body .cointainer .ourBestCourses .coursesList .courses .Title2 {
     font-size: 18px;
   }
 
-  body .cointainer .ourBestCourses .coursesList .courses  .Title2 {
+  body .cointainer .ourBestCourses .coursesList .courses .Title2 {
     font-size: 18px;
   }
-  body .cointainer .ourBestCourses .coursesList .courses  .Title3 {
+  body .cointainer .ourBestCourses .coursesList .courses .Title3 {
     font-size: 13px;
+  }
+  body .cointainer .ourBestCourses .coursesList .courses .appoinmentBtn button {
+    width: 100%;
+    height: 35px;
+    margin-top: auto;
+    font-size: 12px;
   }
 }
