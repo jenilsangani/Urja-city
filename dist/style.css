@@ -973,4 +973,10 @@ body .cointainer footer .bottomAbout .quickLinks p {
     margin-top: auto;
     font-size: 12px;
   }
+  body .cointainer .services .serviceList .service .info ul li .point1 {
+    display: none;
+  }
+  body .cointainer .services .serviceList .service .info ul li .leadingIcon1 {
+    display: none;
+  }
 }
