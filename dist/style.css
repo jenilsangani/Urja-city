@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -15,11 +16,13 @@ body {
   height: 100vh;
   user-select: none;
 }
+
 body .cointainer .topnav {
   display: block;
   height: 46px;
   background: #235963;
 }
+
 body .cointainer .head {
   width: 100%;
   height: 154px;
@@ -27,12 +30,14 @@ body .cointainer .head {
   background: #46a1a7;
   position: relative;
 }
+
 body .cointainer .head img {
   margin-top: 46px;
   margin-left: 68px;
   height: 54px;
   width: 241px;
 }
+
 body .cointainer .head .bar {
   display: flex;
   flex: 1;
@@ -41,23 +46,27 @@ body .cointainer .head .bar {
   align-items: center;
   margin-bottom: 26px;
 }
+
 body .cointainer .head .bar label {
   position: relative;
   display: flex;
   flex-shrink: 1;
   flex-grow: 1;
 }
+
 body .cointainer .head .bar label input {
   height: 55px;
   width: 100%;
   border: none;
   border-radius: 10px;
 }
+
 body .cointainer .head .bar label input::placeholder {
   font-size: 18px;
   padding-left: 10px;
   color: #666d8180;
 }
+
 body .cointainer .head .bar label button {
   position: absolute;
   top: 10%;
@@ -71,15 +80,18 @@ body .cointainer .head .bar label button {
   box-shadow: 0px 5px 10px 3px rgba(255, 152, 1, 0.3);
   border-radius: 5px;
 }
+
 body .cointainer .head .about {
   display: flex;
   margin-bottom: 34px;
   justify-content: center;
   align-items: center;
 }
+
 body .cointainer .head .about .contect {
   display: flex;
 }
+
 body .cointainer .head .about .contect span {
   border: 3px solid white;
   color: white;
@@ -87,6 +99,7 @@ body .cointainer .head .about .contect span {
   padding: 12px 10px;
   margin-left: 57px;
 }
+
 body .cointainer .head .about .contect p {
   display: inline-block;
   font-size: 13px;
@@ -99,10 +112,12 @@ body .cointainer .head .about .contect p {
   text-align: left;
   margin-left: 10px;
 }
+
 body .cointainer .head .login {
   width: auto;
   margin: 39px 76px 60px;
 }
+
 body .cointainer .head .login button {
   height: 55px;
   width: 184px;
@@ -114,6 +129,7 @@ body .cointainer .head .login button {
   border-radius: 5px;
   box-shadow: 0px 5px 10px 3px rgba(255, 152, 1, 0.3);
 }
+
 body .cointainer .head .menu {
   position: absolute;
   overflow: hidden;
@@ -130,6 +146,7 @@ body .cointainer .head .menu {
   box-shadow: 0px 4px 10px rgba(55, 88, 186, 0.2);
   border-radius: 5px;
 }
+
 body .cointainer .head .menu p {
   display: flex;
   align-items: center;
@@ -138,15 +155,18 @@ body .cointainer .head .menu p {
   font-weight: 700;
   color: white;
 }
+
 body .cointainer .head .menu p:last-child {
   background: white;
   padding-left: 41px;
   padding-right: 38px;
   color: black;
 }
+
 body .cointainer .head .menu p:nth-child(1) {
   margin-left: 49px;
 }
+
 body .cointainer .menuItem {
   border: 2px solid;
   position: absolute;
@@ -157,12 +177,14 @@ body .cointainer .menuItem {
   background: #48acb2;
   border-radius: 8px;
 }
-body .cointainer > .info {
+
+body .cointainer>.info {
   position: relative;
   border: 1px solid;
   height: 705px;
 }
-body .cointainer > .info .imgdata {
+
+body .cointainer>.info .imgdata {
   position: absolute;
   height: 705px;
   padding-left: 135px;
@@ -171,77 +193,94 @@ body .cointainer > .info .imgdata {
   background-repeat: no-repeat;
   background-size: cover;
 }
-body .cointainer > .info .imgdata p:nth-child(1) {
+
+body .cointainer>.info .imgdata p:nth-child(1) {
   font-size: 50px;
   font-weight: 700;
   line-height: 58px;
   margin-top: 210px;
   color: #ffffff;
 }
-body .cointainer > .info .imgdata p:nth-child(2) {
+
+body .cointainer>.info .imgdata p:nth-child(2) {
   font-size: 18px;
   opacity: 0.8;
   color: white;
 }
-body .cointainer > .info .imgdata p:nth-child(3) {
+
+body .cointainer>.info .imgdata p:nth-child(3) {
   margin-top: 50px;
   color: white;
 }
-body .cointainer > .info .imgdata p:nth-child(4) {
+
+body .cointainer>.info .imgdata p:nth-child(4) {
   color: white;
 }
-body .cointainer > .info .imgdata table {
+
+body .cointainer>.info .imgdata table {
   margin-top: 11px;
 }
-body .cointainer > .info .imgdata table th {
+
+body .cointainer>.info .imgdata table th {
   padding: 11.5px 15px;
 }
-body .cointainer > .info .imgdata table th:nth-child(1) {
+
+body .cointainer>.info .imgdata table th:nth-child(1) {
   background: rgba(255, 152, 1, 0.2);
   color: #ff9801;
 }
-body .cointainer > .info .imgdata table th:nth-child(2) {
+
+body .cointainer>.info .imgdata table th:nth-child(2) {
   color: #46a1a7;
   background: rgba(72, 172, 178, 0.2);
 }
-body .cointainer > .info .imgdata table th:nth-child(3) {
+
+body .cointainer>.info .imgdata table th:nth-child(3) {
   color: white;
 }
-body .cointainer > .info .imgdata table th:nth-child(4) {
+
+body .cointainer>.info .imgdata table th:nth-child(4) {
   color: white;
   background: #48acb2;
   box-shadow: 0px 2px 10px 3px rgba(255, 152, 1, 0.3);
   border-radius: 5px;
 }
-body .cointainer > .info .imgdata .share {
+
+body .cointainer>.info .imgdata .share {
   margin-top: 17px;
   gap: 5px;
 }
-body .cointainer > .info .imgdata .share a {
+
+body .cointainer>.info .imgdata .share a {
   color: #ffffff;
 }
-body .cointainer > .info .imgdata .share .item1 {
+
+body .cointainer>.info .imgdata .share .item1 {
   border: 2px solid white;
   padding: 12px 14px;
   border-radius: 100%;
 }
-body .cointainer > .info .imgdata .share .item2 {
+
+body .cointainer>.info .imgdata .share .item2 {
   padding: 12px 14px;
   border-radius: 100%;
   border: 2px solid white;
   background: #ff9801;
 }
-body .cointainer > .info .imgdata .share .item3 {
+
+body .cointainer>.info .imgdata .share .item3 {
   padding: 12px 14px;
   border-radius: 100%;
   border: 2px solid white;
 }
-body .cointainer > .info .imgdata .share .item4 {
+
+body .cointainer>.info .imgdata .share .item4 {
   padding: 12px 14px;
   border-radius: 100%;
   border: 2px solid white;
 }
-body .cointainer > .info .healthyBuddha {
+
+body .cointainer>.info .healthyBuddha {
   position: relative;
   display: inline;
   flex-direction: column;
@@ -257,77 +296,95 @@ body .cointainer > .info .healthyBuddha {
   border-radius: 25px;
   box-shadow: 0px 4px 8.944px rgba(0, 57, 106, 0.1);
 }
-body .cointainer > .info .healthyBuddha .top {
+
+body .cointainer>.info .healthyBuddha .top {
   display: flex;
   gap: 110px;
 }
-body .cointainer > .info .healthyBuddha .top .title {
+
+body .cointainer>.info .healthyBuddha .top .title {
   display: flex;
   flex-direction: column;
 }
-body .cointainer > .info .healthyBuddha .top .title .top {
+
+body .cointainer>.info .healthyBuddha .top .title .top {
   position: relative;
 }
-body .cointainer > .info .healthyBuddha .top .title .top p:nth-child(1) {
+
+body .cointainer>.info .healthyBuddha .top .title .top p:nth-child(1) {
   font-size: 50px;
   font-weight: 700;
 }
-body .cointainer > .info .healthyBuddha .top .title .top span {
+
+body .cointainer>.info .healthyBuddha .top .title .top span {
   position: absolute;
   top: 0;
   right: 0;
 }
-body .cointainer > .info .healthyBuddha .top .title p {
+
+body .cointainer>.info .healthyBuddha .top .title p {
   font-size: 50px;
   font-weight: 700;
 }
-body .cointainer > .info .healthyBuddha .top .title .rating {
+
+body .cointainer>.info .healthyBuddha .top .title .rating {
   display: flex;
   align-items: center;
 }
-body .cointainer > .info .healthyBuddha .top .title .rating p {
+
+body .cointainer>.info .healthyBuddha .top .title .rating p {
   font-size: 30px;
 }
-body .cointainer > .info .healthyBuddha .top .title .rating .star {
+
+body .cointainer>.info .healthyBuddha .top .title .rating .star {
   padding-left: 15px;
   color: #ff9801;
 }
-body .cointainer > .info .healthyBuddha .top .title .rating .star i {
+
+body .cointainer>.info .healthyBuddha .top .title .rating .star i {
   font-size: 25px;
 }
-body .cointainer > .info .healthyBuddha .top .title .reviews {
+
+body .cointainer>.info .healthyBuddha .top .title .reviews {
   font-size: 18px;
   padding-top: 10px;
   line-height: 21px;
   color: #666d81;
 }
-body .cointainer > .info .healthyBuddha .top .calender {
+
+body .cointainer>.info .healthyBuddha .top .calender {
   display: flex;
   flex-grow: 1;
 }
-body .cointainer > .info .healthyBuddha .top .calender .location {
+
+body .cointainer>.info .healthyBuddha .top .calender .location {
   display: flex;
   flex-grow: 1;
 }
-body .cointainer > .info .healthyBuddha .top .calender .location span {
+
+body .cointainer>.info .healthyBuddha .top .calender .location span {
   font-size: 50px;
   color: #ff9801;
 }
-body .cointainer > .info .healthyBuddha .top .calender .location p:nth-child(1) {
+
+body .cointainer>.info .healthyBuddha .top .calender .location p:nth-child(1) {
   margin-top: 8px;
   justify-items: center;
   align-items: center;
   font-size: 12px;
 }
-body .cointainer > .info .healthyBuddha .top .calender .location p:nth-child(2) {
+
+body .cointainer>.info .healthyBuddha .top .calender .location p:nth-child(2) {
   font-weight: 700;
   font-size: 18px;
 }
-body .cointainer > .info .healthyBuddha .bottom {
+
+body .cointainer>.info .healthyBuddha .bottom {
   display: flex;
   gap: 10px;
 }
-body .cointainer > .info .healthyBuddha .bottom .ation {
+
+body .cointainer>.info .healthyBuddha .bottom .ation {
   border-radius: 5px;
   display: flex;
   gap: 8px;
@@ -341,27 +398,33 @@ body .cointainer > .info .healthyBuddha .bottom .ation {
   line-height: 22px;
   color: #666d81;
 }
-body .cointainer > .info .healthyBuddha .bottom .ation:last-child span {
+
+body .cointainer>.info .healthyBuddha .bottom .ation:last-child span {
   color: #ff9801;
 }
-body .cointainer > .info .healthyBuddha .bottom .ation:first-child {
+
+body .cointainer>.info .healthyBuddha .bottom .ation:first-child {
   background-color: #ff9801;
   color: #ffffff;
 }
-body .cointainer > .info .healthyBuddha .bottom .ation:first-child span {
+
+body .cointainer>.info .healthyBuddha .bottom .ation:first-child span {
   color: white;
 }
+
 body .cointainer .announcements {
   height: 196px;
   width: 100%;
   background: #46a1a7;
   margin-top: 184px;
 }
+
 body .cointainer .announcements .text {
   padding: 35px 78px 0 243px;
   height: 79px;
   width: auto;
 }
+
 body .cointainer .announcements .text p:first-child {
   font-style: normal;
   font-weight: 700;
@@ -369,6 +432,7 @@ body .cointainer .announcements .text p:first-child {
   line-height: 59px;
   color: #ffffff;
 }
+
 body .cointainer .announcements .text p:last-child {
   font-style: normal;
   font-weight: 400;
@@ -377,6 +441,7 @@ body .cointainer .announcements .text p:last-child {
   color: #ffffff;
   opacity: 0.8;
 }
+
 body .cointainer .aboutTheNgo .topList {
   margin-top: 62px;
   justify-content: space-evenly;
@@ -386,25 +451,31 @@ body .cointainer .aboutTheNgo .topList {
   margin-right: 11px;
   box-shadow: 0px 4px 8.944px rgba(0, 57, 106, 0.1);
 }
+
 body .cointainer .aboutTheNgo .aboutNGO {
   margin: 83px auto auto 154px;
 }
+
 body .cointainer .aboutTheNgo .aboutNGO .titleImage {
   display: flex;
 }
+
 body .cointainer .aboutTheNgo .aboutNGO .titleImage .about {
   margin-left: 53px;
 }
+
 body .cointainer .aboutTheNgo .aboutNGO .titleImage .about p:nth-child(1) {
   font-size: 16px;
   font-weight: 400;
   color: #666d81;
 }
+
 body .cointainer .aboutTheNgo .aboutNGO .titleImage .about p:nth-child(2) {
   font-size: 50px;
   font-weight: 700;
   color: #131d3b;
 }
+
 body .cointainer .aboutTheNgo .aboutNGO .titleImage .about p:nth-child(3) {
   color: #46a1a7;
   font-size: 18px;
@@ -414,12 +485,14 @@ body .cointainer .aboutTheNgo .aboutNGO .titleImage .about p:nth-child(3) {
   display: inline-block;
   margin-top: 27px;
 }
+
 body .cointainer .aboutTheNgo .aboutNGO .description {
   margin-top: 31px;
   width: auto;
   flex-direction: column;
   margin-right: 66px;
 }
+
 body .cointainer .aboutTheNgo .aboutNGO .description p {
   display: flex;
   font-size: 18px;
@@ -428,37 +501,45 @@ body .cointainer .aboutTheNgo .aboutNGO .description p {
   color: #666d81;
   max-height: 772px;
 }
+
 body .cointainer .aboutTheNgo .aboutNGO .description p:nth-child(2) {
   padding-top: 44px;
   padding-bottom: 74px;
 }
+
 body .cointainer .aboutTheNgo .option {
   margin: 35px 0;
   padding: 33px 60px;
   border-radius: 50px;
   background: #e9e9e9;
 }
+
 body .cointainer .aboutTheNgo .option p {
   font-size: 18px;
   font-weight: 700;
 }
+
 body .cointainer .aboutTheNgo .option:first-child {
   margin-left: 55px;
   background: #ff9801;
   color: #ffffff;
   box-shadow: 0px 12px 9.798px rgba(255, 152, 1, 0.35);
 }
+
 body .cointainer .aboutTheNgo .option:last-child {
   margin-right: 55px;
 }
+
 body .cointainer .flex_container {
   background: #f2f3f5;
   z-index: 1;
 }
+
 body .cointainer .flex_container .productsTitle {
   padding-left: 157px;
   padding-top: 39px;
 }
+
 body .cointainer .flex_container .productsTitle p:nth-child(1) {
   text-transform: uppercase;
   font-size: 16px;
@@ -466,14 +547,17 @@ body .cointainer .flex_container .productsTitle p:nth-child(1) {
   font-weight: 400;
   color: #666d81;
 }
+
 body .cointainer .flex_container .productsTitle p:nth-child(2) {
   font-size: 50px;
   line-height: 51px;
   font-weight: 700;
 }
+
 body .cointainer .flex_container .productsTitle p:nth-child(2) span {
   color: #ff9801;
 }
+
 body .cointainer .flex_container .flxItem {
   display: flex;
   width: 90%;
@@ -484,6 +568,7 @@ body .cointainer .flex_container .flxItem {
   margin-right: 155px;
   padding-bottom: 66px;
 }
+
 body .cointainer .flex_container .flex_box {
   height: 315px;
   width: 378px;
@@ -497,21 +582,26 @@ body .cointainer .flex_container .flex_box {
   padding-top: 184px;
   background-repeat: no-repeat;
 }
+
 body .cointainer .services {
   padding: 130px 157px;
 }
+
 body .cointainer .services .servicesTitle p:nth-child(1) {
   font-size: 16px;
   color: #666d81;
 }
+
 body .cointainer .services .servicesTitle p:nth-child(2) {
   font-size: 50px;
   font-weight: 700;
   line-height: 58px;
 }
+
 body .cointainer .services .servicesTitle p:nth-child(2) span {
   color: #ff9801;
 }
+
 body .cointainer .services .serviceList {
   margin-top: 60px;
   display: flex;
@@ -519,6 +609,7 @@ body .cointainer .services .serviceList {
   flex-direction: column;
   justify-items: stretch;
 }
+
 body .cointainer .services .serviceList .service {
   display: flex;
   border: 1px dashed #c8c8c8;
@@ -526,6 +617,7 @@ body .cointainer .services .serviceList .service {
   padding: 36px;
   gap: 16px;
 }
+
 body .cointainer .services .serviceList .service .gallery {
   display: flex;
   border-radius: 10px;
@@ -534,20 +626,25 @@ body .cointainer .services .serviceList .service .gallery {
   overflow: hidden;
   flex-direction: column;
 }
+
 body .cointainer .services .serviceList .service .gallery .hero img {
   height: 255px;
   width: 100%;
 }
+
 body .cointainer .services .serviceList .service .gallery .list {
   display: flex;
 }
+
 body .cointainer .services .serviceList .service .gallery .list img {
   height: 85px;
 }
+
 body .cointainer .services .serviceList .service .info {
   display: flex;
   flex-direction: column;
 }
+
 body .cointainer .services .serviceList .service .info .serviceTitle {
   font-style: normal;
   font-weight: 700;
@@ -555,19 +652,24 @@ body .cointainer .services .serviceList .service .info .serviceTitle {
   line-height: 30px;
   color: #131d3b;
 }
+
 body .cointainer .services .serviceList .service .info ul {
   align-self: flex-start;
 }
+
 body .cointainer .services .serviceList .service .info ul li {
   display: flex;
   gap: 10px;
 }
+
 body .cointainer .services .serviceList .service .info ul li .leadingIcon {
   margin-top: 14px;
 }
+
 body .cointainer .services .serviceList .service .info ul li p {
   margin-top: 10px;
 }
+
 body .cointainer .services .serviceList .service .info ul li .point {
   font-family: "Roboto";
   font-style: normal;
@@ -576,6 +678,7 @@ body .cointainer .services .serviceList .service .info ul li .point {
   line-height: 30px;
   color: #666d81;
 }
+
 body .cointainer .services .serviceList .service .info button {
   width: 199px;
   height: 55px;
@@ -589,6 +692,7 @@ body .cointainer .services .serviceList .service .info button {
   justify-items: flex-end;
   color: #ffffff;
 }
+
 body .cointainer .ourBestCourses {
   padding: 157px;
   background: #f2f3f5;
@@ -597,25 +701,30 @@ body .cointainer .ourBestCourses {
   display: flex;
   flex-direction: column;
 }
+
 body .cointainer .ourBestCourses .coursesTitle p:nth-child(1) {
   font-size: 16px;
   color: #666d81;
   line-height: 19px;
   font-weight: 400;
 }
+
 body .cointainer .ourBestCourses .coursesTitle p:nth-child(2) {
   font-size: 50px;
   font-weight: 700;
   line-height: 58px;
 }
+
 body .cointainer .ourBestCourses .coursesTitle p:nth-child(2) span {
   color: #ff9801;
 }
+
 body .cointainer .ourBestCourses .coursesList {
   display: flex;
   gap: 30px;
   margin-top: 67px;
 }
+
 body .cointainer .ourBestCourses .coursesList .courses {
   flex-grow: 1;
   overflow: hidden;
@@ -625,48 +734,61 @@ body .cointainer .ourBestCourses .coursesList .courses {
   display: flex;
   border-radius: 10px;
 }
-body .cointainer .ourBestCourses .coursesList .courses > * {
+
+body .cointainer .ourBestCourses .coursesList .courses>* {
   padding: 16px;
 }
-body .cointainer .ourBestCourses .coursesList .courses > img {
+
+body .cointainer .ourBestCourses .coursesList .courses>img {
   padding: 0;
 }
-body .cointainer .ourBestCourses .coursesList .courses > .Title1 {
+
+body .cointainer .ourBestCourses .coursesList .courses>.Title1 {
   padding: 16px 16px 0 16px;
 }
-body .cointainer .ourBestCourses .coursesList .courses > .Title2 {
+
+body .cointainer .ourBestCourses .coursesList .courses>.Title2 {
   padding: 0 16px;
 }
-body .cointainer .ourBestCourses .coursesList .courses > .Title3 {
+
+body .cointainer .ourBestCourses .coursesList .courses>.Title3 {
   padding: 0 16px;
 }
+
 body .cointainer .ourBestCourses .coursesList .courses img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
+
 body .cointainer .ourBestCourses .coursesList .courses p {
   color: #666d81;
 }
+
 body .cointainer .ourBestCourses .coursesList .courses p span {
   color: #ff9801;
   font-size: 16px;
   font-weight: 700;
 }
+
 body .cointainer .ourBestCourses .coursesList .courses .Title1 {
   line-height: 30px;
 }
+
 body .cointainer .ourBestCourses .coursesList .courses .Title2 {
   font-size: 24px;
   color: black;
   font-weight: 700;
 }
+
 body .cointainer .ourBestCourses .coursesList .courses .Title3 {
   line-height: 30px;
 }
+
 body .cointainer .ourBestCourses .coursesList .courses .appoinmentBtn {
   flex-grow: 2;
 }
+
 body .cointainer .ourBestCourses .coursesList .courses .appoinmentBtn button {
   width: 100%;
   height: 55px;
@@ -679,11 +801,13 @@ body .cointainer .ourBestCourses .coursesList .courses .appoinmentBtn button {
   justify-items: flex-end;
   color: #ffffff;
 }
+
 body .cointainer .ourBestCourses .coursesList .courses .appoinmentBtn .unselectBtn {
   background: white;
   color: #ff9801;
   border: 2px solid #ff9801;
 }
+
 body .cointainer .latestBlogs {
   padding: 157px;
   padding-top: 97px;
@@ -691,25 +815,30 @@ body .cointainer .latestBlogs {
   display: flex;
   flex-direction: column;
 }
+
 body .cointainer .latestBlogs .blogsTitle p:nth-child(1) {
   font-size: 16px;
   color: #666d81;
   line-height: 19px;
   font-weight: 400;
 }
+
 body .cointainer .latestBlogs .blogsTitle p:nth-child(2) {
   font-size: 50px;
   font-weight: 700;
   line-height: 58px;
 }
+
 body .cointainer .latestBlogs .blogsTitle p:nth-child(2) span {
   color: #ff9801;
 }
+
 body .cointainer .latestBlogs .blogLIst {
   display: flex;
   gap: 30px;
   margin-top: 67px;
 }
+
 body .cointainer .latestBlogs .blogLIst .blogs {
   flex-grow: 1;
   overflow: hidden;
@@ -719,55 +848,69 @@ body .cointainer .latestBlogs .blogLIst .blogs {
   display: flex;
   border-radius: 10px;
 }
-body .cointainer .latestBlogs .blogLIst .blogs > * {
+
+body .cointainer .latestBlogs .blogLIst .blogs>* {
   padding: 16px;
 }
-body .cointainer .latestBlogs .blogLIst .blogs > img {
+
+body .cointainer .latestBlogs .blogLIst .blogs>img {
   padding: 0;
 }
-body .cointainer .latestBlogs .blogLIst .blogs > .Title1 {
+
+body .cointainer .latestBlogs .blogLIst .blogs>.Title1 {
   padding: 16px 16px 0 16px;
 }
-body .cointainer .latestBlogs .blogLIst .blogs > .Title2 {
+
+body .cointainer .latestBlogs .blogLIst .blogs>.Title2 {
   padding: 0 16px;
 }
-body .cointainer .latestBlogs .blogLIst .blogs > .Title3 {
+
+body .cointainer .latestBlogs .blogLIst .blogs>.Title3 {
   padding: 0 16px;
 }
+
 body .cointainer .latestBlogs .blogLIst .blogs img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
+
 body .cointainer .latestBlogs .blogLIst .blogs p {
   color: #666d81;
 }
+
 body .cointainer .latestBlogs .blogLIst .blogs p span {
   color: #ff9801;
   font-size: 16px;
   font-weight: 700;
 }
+
 body .cointainer .latestBlogs .blogLIst .blogs .Title1 {
   line-height: 30px;
 }
+
 body .cointainer .latestBlogs .blogLIst .blogs .Title2 {
   font-size: 25px;
   color: #131d3b;
   font-weight: 400;
   padding-bottom: 30px;
 }
+
 body .cointainer .latestBlogs .blogLIst .blogs .Title3 {
   line-height: 30px;
   padding-bottom: 20px;
 }
+
 body .cointainer .latestBlogs .blogLIst .blogs .readMore {
   flex-grow: 2;
   padding-top: 20px;
 }
+
 body .cointainer .latestBlogs .blogLIst .blogs .readMore p {
   color: #ff9801;
   text-decoration: underline;
 }
+
 body .cointainer footer {
   background: #235963;
   display: flex;
@@ -776,14 +919,17 @@ body .cointainer footer {
   padding: 97px 157px;
   gap: 80px;
 }
+
 body .cointainer footer .bottomAbout {
   width: 100%;
   display: flex;
   flex-direction: row;
 }
+
 body .cointainer footer .bottomAbout .about {
   width: 597px;
 }
+
 body .cointainer footer .bottomAbout .about .title {
   font-size: 24px;
   line-height: 28px;
@@ -791,6 +937,7 @@ body .cointainer footer .bottomAbout .about .title {
   color: white;
   padding-bottom: 51px;
 }
+
 body .cointainer footer .bottomAbout .about .aboutData {
   font-size: 16px;
   line-height: 35px;
@@ -798,10 +945,12 @@ body .cointainer footer .bottomAbout .about .aboutData {
   color: #b6bbcc;
   padding-bottom: 65px;
 }
+
 body .cointainer footer .bottomAbout .about input {
   height: 55px;
   width: 420px;
 }
+
 body .cointainer footer .bottomAbout .about button {
   width: 168px;
   height: 55px;
@@ -811,9 +960,11 @@ body .cointainer footer .bottomAbout .about button {
   background: #ff9801;
   color: #ffffff;
 }
+
 body .cointainer footer .bottomAbout .socialMedia {
   margin-left: auto;
 }
+
 body .cointainer footer .bottomAbout .socialMedia .title {
   font-size: 24px;
   font-weight: 700;
@@ -821,6 +972,7 @@ body .cointainer footer .bottomAbout .socialMedia .title {
   color: white;
   padding-bottom: 48px;
 }
+
 body .cointainer footer .bottomAbout .socialMedia a {
   padding: 15px;
   border-radius: 50%;
@@ -828,9 +980,11 @@ body .cointainer footer .bottomAbout .socialMedia a {
   color: white;
   background: rgba(19, 29, 59, 0.2);
 }
+
 body .cointainer footer .bottomAbout .conteact {
   margin-left: auto;
 }
+
 body .cointainer footer .bottomAbout .conteact .title {
   font-size: 24px;
   line-height: 28px;
@@ -838,15 +992,18 @@ body .cointainer footer .bottomAbout .conteact .title {
   color: white;
   padding-bottom: 51px;
 }
+
 body .cointainer footer .bottomAbout .conteact p {
   font-size: 16px;
   line-height: 35px;
   font-weight: 400;
   color: #b6bbcc;
 }
+
 body .cointainer footer .bottomAbout .quickLinks {
   margin-left: auto;
 }
+
 body .cointainer footer .bottomAbout .quickLinks .title {
   font-size: 24px;
   line-height: 28px;
@@ -854,9 +1011,141 @@ body .cointainer footer .bottomAbout .quickLinks .title {
   color: white;
   padding-bottom: 51px;
 }
+
 body .cointainer footer .bottomAbout .quickLinks p {
   font-size: 16px;
   line-height: 35px;
   font-weight: 400;
   color: #b6bbcc;
+}
+
+@media screen and (max-width: 1200px) {
+  body .cointainer .bar button {
+    display: none;
+  }
+
+  body .cointainer .announcements .text {
+    padding: 17px 40px 0 100px;
+    height: 10px;
+  }
+
+  body .cointainer .announcements .text p:first-child {
+    font-size: 20px;
+  }
+
+  body .cointainer .announcements .text p:last-child {
+    font-size: 12px;
+  }
+
+  body .cointainer .aboutTheNgo .topList .option {
+    margin: 35px 0;
+    padding: 15px 30px;
+  }
+
+  body .cointainer footer {
+    padding: 45px 90px;
+  }
+
+  body .cointainer footer .bottomAbout .about .title {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+
+  body .cointainer footer .bottomAbout .about {
+    width: 200px;
+    /* margin-left: auto; */
+  }
+
+  body .cointainer footer .bottomAbout .about .aboutData {
+    font-size: 12px;
+  }
+
+  body .cointainer footer .bottomAbout .about input {
+    height: 25px;
+    width: 130px;
+  }
+
+  body .cointainer footer .bottomAbout .about button {
+    width: 60px;
+    height: 26px;
+    font-size: 12px;
+  }
+
+  body .cointainer footer .bottomAbout .socialMedia .title {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+
+  body .cointainer footer .bottomAbout .socialMedia a {
+    padding: 8px;
+    font-size: 15px;
+  }
+
+  body .cointainer footer .bottomAbout .conteact .title {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+
+  body .cointainer footer .bottomAbout .conteact p {
+    font-size: 12px;
+    line-height: 35px;
+  }
+
+  body .cointainer footer .bottomAbout .quickLinks .title {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+
+  body .cointainer footer .bottomAbout .quickLinks p {
+    font-size: 12px;
+  }
+
+  body .cointainer .latestBlogs .blogLIst .blogs .Title2 {
+    font-size: 15px;
+  }
+
+  body .cointainer .latestBlogs .blogLIst .blogs .Title3 {
+    font-size: 13px;
+  }
+
+  /* grid */
+
+  body .cointainer .ourBestCourses .coursesList .courses .Title2 {
+    font-size: 18px;
+  }
+
+  body .cointainer .ourBestCourses .coursesList .courses .Title2 {
+    font-size: 18px;
+  }
+
+  body .cointainer .ourBestCourses .coursesList .courses .Title3 {
+    font-size: 13px;
+  }
+
+  body .cointainer .ourBestCourses .coursesList .courses .appoinmentBtn button {
+    width: 100%;
+    height: 35px;
+    margin-top: auto;
+    font-size: 12px;
+  }
+
+  body .cointainer .services .serviceList .service .info ul li .point1 {
+    display: none;
+  }
+
+  body .cointainer .services .serviceList .service .info ul li .leadingIcon1 {
+    display: none;
+  }
+
+  body .cointainer .services .serviceList .service .info ul li .point {
+    overflow-y: ellipsis;
+    height: 200px;
+    overflow-y: scroll;
+    text-overflow: ellipsis;
+  }
+
+  body .cointainer .head .menu p {
+    font-size: 13px;
+    line-height: 30px;
+  }
 }
