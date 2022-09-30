@@ -16,6 +16,7 @@
 body {
   height: 100vh;
   user-select: none;
+  /* width: 100vw; */
 }
 
 body .cointainer .topnav {
