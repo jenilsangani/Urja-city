@@ -878,31 +878,3 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
-  body {
-    .cointainer {
-      .bar {
-        button {
-          display: none;
-        }
-      }
-    }
-    .announcements{
-      .text{
-        color: #ff9801;
-        p{
-          font-size: 5px;
-        }
-      }
-    }
-    .aboutTheNgo {
-      .topList {
-        background: #235963;
-        display: flex;
-        width: 90%;
-        height: auto;
-        flex-wrap: wrap;
-      }
-    }
-  }
-}
