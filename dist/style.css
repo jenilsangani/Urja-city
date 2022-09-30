@@ -1146,4 +1146,10 @@ body .cointainer footer .bottomAbout .quickLinks p {
     overflow-y: scroll;
     text-overflow: ellipsis;
   }
+
+  body .cointainer .head .menu p {
+    font-size: 13px;
+    /* color: red; */
+    line-height: 30px;
+  }
 }
