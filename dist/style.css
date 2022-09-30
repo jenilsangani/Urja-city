@@ -1146,4 +1146,65 @@ body .cointainer footer .bottomAbout .quickLinks p {
     overflow-y: scroll;
     text-overflow: ellipsis;
   }
+
+
+
+
+
+
+
+
+
+
+
+  /* body .cointainer>.info .healthyBuddha .top .title p {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  body .cointainer>.info .healthyBuddha .top .title .rating p {
+    font-size: 25px;
+  }
+
+  body .cointainer>.info .healthyBuddha .top .title .rating .star {
+    padding-left: 15px;
+  }
+
+  body .cointainer>.info .healthyBuddha .top .title .rating .star i {
+    font-size: 15px;
+  }
+
+  body .cointainer>.info .healthyBuddha .top .title .reviews {
+    font-size: 12px;
+  }
+  body .cointainer>.info .healthyBuddha .top .calender .location p:nth-child(1) {
+    margin-top: 8px;
+    justify-items: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  body .cointainer>.info .healthyBuddha .top .calender .location p:nth-child(2) {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  body .cointainer>.info .healthyBuddha .bottom {
+    display: flex;
+    gap: 10px;
+  } */
+
+  /* body .cointainer>.info .healthyBuddha .bottom .ation {
+    border-radius: 5px;
+    display: flex;
+    gap: 8px;
+    background: #f0f0f2;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #666d81;
+  } */
 }
