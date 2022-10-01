@@ -15,6 +15,7 @@
 body {
   height: 100vh;
   user-select: none;
+  width: 100vw;
 }
 
 body .cointainer .topnav {
@@ -560,7 +561,7 @@ body .cointainer .flex_container .productsTitle p:nth-child(2) span {
 
 body .cointainer .flex_container .flxItem {
   display: flex;
-  width: 90%;
+  width: auto;
   height: auto;
   flex-wrap: wrap;
   gap: 32px;
